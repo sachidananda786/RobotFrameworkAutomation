@@ -36,7 +36,7 @@ pipeline {
         always {
             archiveArtifacts artifacts: 'results/**', allowEmptyArchive: true
             emailext(
-                to: 'your-email@example.com',
+                to: 'sachidanandabhanja786@gmail.com',
                 subject: "Robot tests: ${currentBuild.currentResult} - ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                 body: "Robot test results are available at ${env.BUILD_URL}.",
                 attachmentsPattern: 'results/output.xml,results/log.html,results/report.html'
