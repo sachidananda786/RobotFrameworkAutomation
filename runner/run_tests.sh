@@ -1,0 +1,1 @@
+python3 -m robot --outputdir results tests/login/login_tests.robot
