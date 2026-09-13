@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Enterprise UI Automation Framework
 
 Robot Framework + Selenium + Python framework for maintainable web UI automation.
@@ -46,3 +47,7 @@ TEST_ENV=qa robot --include smoke --outputdir results tests
 3. Add API setup and database validation utilities.
 4. Add retry policy and quarantine handling for known flaky tests.
 5. Expand CI with parallel execution and archived Robot reports.
+=======
+# RobotFrameworkAutomation
+Scalable web UI automation framework using Robot Framework, SeleniumLibrary, and Python with reusable keywords, Page Objects, centralized configuration, test tagging, and failure handling.
+>>>>>>> origin/main
