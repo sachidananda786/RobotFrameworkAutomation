@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.pytest_cache/
+results/
+reports/
+logs/
+results/
+output.xml
+log.html
+report.html
+.DS_Store
+.idea/
+.vscode/settings.json
